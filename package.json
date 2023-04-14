@@ -1,0 +1,20 @@
+{
+	"name": "deaisp",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"build": "npx tailwindcss -i ./tailwind_import.css -o ./html/assets/tailwind.css",
+		"watch": "npx tailwindcss -i ./tailwind_import.css -o ./html/assets/tailwind.css --watch"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"autoprefixer": "^10.4.14",
+		"postcss": "^8.4.21",
+		"prettier": "^2.8.7",
+		"prettier-plugin-tailwindcss": "^0.2.7",
+		"tailwindcss": "^3.3.1"
+	}
+}
