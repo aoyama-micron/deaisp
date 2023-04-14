@@ -1,18 +1,50 @@
 # deaisp
 
-### _■Docker + PHP + Apache 参考 URL_<br>
+### _Docker + PHP + Apache 参考 URL_<br>
 
 https://qiita.com/Ryooota/items/65ff0c32a5d93f225d7a<br>
 
-### _■git Clone_<br>
+### _構成_<br>
 
-1. git clone https://github.com/aoyama-micron/deaisp.git
+```
+deaisp/
+  ├ html/
+    ├ assets/
+    └ tailwind.css
+  ├ .htaccess
+  └ index.html
+│
+├ Dockerfile
+├ .gitignore
+├ .prettierrc
+├ package.json
+├ prettier.config.js
+├ tailwind_import.css
+└ tailwind.config.js
+```
 
-### _■TailwindCSS + Prettier_<br>
+### _Clone_<br>
 
-1. npm install tailwindcss@latest postcss@latest autoprefixer@latest<br>
-2. npm install -D prettier prettier-plugin-tailwindcss
+```
+git clone https://github.com/aoyama-micron/deaisp.git
+```
 
-### _■ 起動_<br>
+### _TailwindCSS + Prettier_<br>
 
+```
+npm install tailwindcss@latest postcss@latest autoprefixer@latest
+```
+
+```
+npm install -D prettier prettier-plugin-tailwindcss
+```
+
+### _ビルド or 自動ビルド_<br>
+
+```
 npm run build
+```
+
+```
+npm run watch
+```
