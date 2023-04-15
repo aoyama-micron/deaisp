@@ -7,4 +7,3 @@
 		<title>出会いサーチinclude</title>
 		<link rel="stylesheet" href="./assets/tailwind.css?<?php echo date('Ymdhis'); ?>" />
 	</head>
-</html>
