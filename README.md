@@ -29,7 +29,7 @@ deaisp/
 git clone https://github.com/aoyama-micron/deaisp.git
 ```
 
-### _TailwindCSS + Prettier_<br>
+### _TailwindCSS + Prettier インストール_<br>
 
 ```
 npm install tailwindcss@latest postcss@latest autoprefixer@latest
@@ -39,7 +39,7 @@ npm install tailwindcss@latest postcss@latest autoprefixer@latest
 npm install -D prettier prettier-plugin-tailwindcss
 ```
 
-### _ビルド or 自動ビルド_<br>
+### _TailwindCSS ビルド or 自動ビルド_<br>
 
 ```
 npm run build
