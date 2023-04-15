@@ -1,13 +1,15 @@
 <?php
-include_once('_head.html');
+	include_once('_head.php');
 ?>
-	<body>
-		<h1 class="mb-10 mt-10 bg-blue-300 py-20 text-2xl text-red-300"><?php echo '出会いサーチ'; ?>出会いサーチ</h1>
-		<div class="mx-auto items-center px-4 py-20 font-bold md:flex md:py-40">テストてすとテストてすと</div>
-		<div>
-			<?php
-			for($i=0; $i<100; $i++){
+<body>
+	<h1 class="mb-10 mt-10 bg-blue-300 py-20 text-2xl text-red-800"><?php echo '出会いサーチ'; ?>出会いサーチ</h1>
+	<div class="mx-auto items-center px-4 py-20 font-bold md:flex md:py-40">テストてすとテストてすと</div>
+	<div>
+		<?php
+			for($i=0; $i<50; $i++){
 				echo "テスト" . $i . "<br>"; } ?>
-		</div>
-	</body>
-</html>
+	</div>
+</body>
+<?php
+	include_once('_footer.php');
+?>
