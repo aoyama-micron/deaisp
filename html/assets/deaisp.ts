@@ -13,7 +13,7 @@
 	}
 })();
 
-//webp対応ブラウザ判別
+//webp対応のブラウザ判別
 (() => {
 	let webp = new Image();
 	webp.src = 'data:image/webp;base64,UklGRiQAAABXRUJQVlA4IBgAAAAwAQCdASoBAAEAAgA0JaQAA3AA/vuUAAA=';
