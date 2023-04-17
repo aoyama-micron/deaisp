@@ -64,19 +64,18 @@
 	for (let value of targets) {
 		'mouseover,mouseout'.split(',').forEach((eventName: string) => {
 			value.addEventListener(eventName, (e: Event) => {
-				if (!e.target) {
-					return;
-				}
-				switch (e.type) {
-					case 'mouseover':
-						(e.target as Element).classList.remove('fadeOut');
-						(e.target as Element).classList.add('fadeIn');
-						break;
-					case 'mouseout':
-					default:
-						(e.target as Element).classList.remove('fadeIn');
-						(e.target as Element).classList.add('fadeOut');
-						break;
+				if (e.target) {
+					switch (e.type) {
+						case 'mouseover':
+							(e.target as Element).classList.remove('fadeOut');
+							(e.target as Element).classList.add('fadeIn');
+							break;
+						case 'mouseout':
+						default:
+							(e.target as Element).classList.remove('fadeIn');
+							(e.target as Element).classList.add('fadeOut');
+							break;
+					}
 				}
 			});
 		});
