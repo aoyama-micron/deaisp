@@ -51,4 +51,4 @@ npm run watch
 
 ### _ESLint + TypeScript_<br>
 
-https://zenn.dev/big_tanukiudon/articles/c1ab3dba7ba111
+https://qiita.com/y-w/items/dcf5fb4af52e990109eb
