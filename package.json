@@ -4,9 +4,9 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"build": "npx tailwindcss -i ./tailwind_import.css -o ./html/assets/tailwind.css",
-		"watch": "npx tailwindcss -i ./tailwind_import.css -o ./html/assets/tailwind.css --watch",
-		"fmt": "prettier --write ./html/**/*.{js,json,css,html}"
+		"twb": "npx tailwindcss -i ./tailwind_import.css -o ./html/assets/tailwind.css",
+		"tww": "npx tailwindcss -i ./tailwind_import.css -o ./html/assets/tailwind.css --watch",
+		"prt": "prettier --write ./html/**/*.{js,json,css,html}"
 	},
 	"keywords": [],
 	"author": "",
