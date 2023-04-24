@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.header {
+	@apply box-border h-14 w-full;
+}
+.main {
+}
+.aside {
+}
+.footer {
+}
