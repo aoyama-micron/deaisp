@@ -10,5 +10,3 @@
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&amp;family=Noto+Sans+JP:wght@400;500;700;900&amp;display=swap">
 		<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 	</head>
-	<body class="bg-gray-100">
-	<div class="mx-auto min-h-screen max-w-lg bg-white">
