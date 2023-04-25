@@ -1,5 +1,7 @@
 'use strict';
 
+console.log(document.documentElement);
+
 //スマホOS判定
 (() => {
 	const ua = navigator.userAgent;
