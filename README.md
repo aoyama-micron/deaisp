@@ -42,13 +42,25 @@ npm install -D prettier prettier-plugin-tailwindcss
 ### _TailwindCSS ビルド or 自動ビルド_<br>
 
 ```
-npm run build
+build
+npm run twb
 ```
 
 ```
-npm run watch
+watch
+npm run tww
+```
+
+```
+prettier write
+npm run prt
 ```
 
 ### _ESLint + TypeScript_<br>
 
 https://qiita.com/y-w/items/dcf5fb4af52e990109eb
+
+```
+typescript write
+tsc
+```
